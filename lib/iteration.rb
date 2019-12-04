@@ -15,7 +15,12 @@ end
 end
 
 def find_greater_pair(src)
- 
+ outer_results = []
+row_index = 0
+while row_index < spice_rack.count do
+  element_index = 0
+  inner_results = []
+  while element_index < spice_rack[row_index].count do
 end
 
 def total_even_pairs(src)
